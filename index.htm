@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Flascard App</title>
+  <link rel="shortcut icon" href="https://assets.materialup.com/uploads/53cce34d-ffa3-4b59-a4a1-ef695bcdda5b/preview" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+  <input type="checkbox" id="check">
+  <!--header area start-->
+  <header>
+    <p value=""></p>
+    <div class="left_area">
+      <h3>Flashcard <span>App</span></h3>
+    </div>
+    <div class="right_area">
+      <!--Search area start-->
+      <div class="search-wrapper">
+        <input type="search" id="search" placeholder="Search" data-search>
+      </div>
+      <!--Search area end-->
+
+      <label for="check">
+        <i class="fas fa-bars" id="sidebar_btn"></i>
+      </label>
+      <a href="#" class="logout_btn">Logout</a>
+    </div>
+  </header>
+  <!--header area end-->
+
+  <!--sidebar start-->
+  
+  <div class="sidebar">
+    <center>
+      <img
+        src="avatar.jpeg"
+        class="profile_image" alt="">
+      <h4>Phúc Thịnh</h4>
+    </center>
+    <div class="sidebar-selector">
+      <a href="#" onclick="showListCard()" id="allListSelector"><i class="fa-solid fa-list"></i><span>All list</span></a>
+      <a href="#" onclick="showFavoriteListCards()" id="favoriteListSelector"><i class="fa-solid fa-heart"></i><span>Favorite</span></a>
+    </div>
+    <table style="border: 1px; color: white;" id="tablebAllList">
+      <thead>
+        <tr>
+          <td><input class="check-box" type="checkbox"></td>
+          <th style="padding-left: 16px;">Id</th>
+          <th>Front</th>
+          <th>Back</th>
+        </tr>
+        
+      </thead>
+
+      <tbody id="tbAllList">
+    </table>
+
+    <table style="border: 1px; color: white;" id="tableFavoriteList">
+      <thead>
+        <tr>
+          <td><input class="check-box" type="checkbox"></td>
+          <th style="padding-left: 16px;">Id</th>
+          <th>Front</th>
+          <th>Back</th>
+        </tr>
+      </thead>
+  
+      <tbody id="tbFavoriteList">
+        
+      </tbody>
+  
+    </table>
+
+    
+  </div>
+
+  <!--sidebar end-->
+
+  <!--content start-->
+
+  <div class="content">
+
+    <div class="flashcard-form">
+      <label for="front">Front
+        <input type="text" id="front">
+      </label>
+      <label for="back">Back
+        <input type="text" id="back">
+      </label>
+      <button onclick="createCard()">Add a New Card</button>
+      <button class="make-practice" onclick="makePractice()" id="btn-practice" style="background-color: #59bae7; border: none">Practice</button>
+      <button class="make-practice d-none"  onclick="removePractice()" id="btn-reset" style="background-color: #cb8484; border: #cb8484;">Reset</button>
+      
+    </div>
+
+    <div class="container">
+      
+    </div> 
+
+    
+  </div>
+
+    
+  </div>
+
+   <!--content end-->
+
+   <!--Practice area start-->
+
+  
+
+   <!--Practice area end-->
+
+ 
+
+<script src="script.js"></script>
+</body>
+
+</html>
