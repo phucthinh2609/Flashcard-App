@@ -2,11 +2,11 @@
 
 ## Giới thiệu
 
-* Flashcard hoặc thẻ thông tin là loại thẻ mang thông tin, được sử dụng cho việc học bài trên lớp hoặc trong nghiên cứu cá nhân. *
+*Flashcard hoặc thẻ thông tin là loại thẻ mang thông tin, được sử dụng cho việc học bài trên lớp hoặc trong nghiên cứu cá nhân.*
 	
-Thông thường flashcard được sử dụng nhiều trong việc học ngoại ngữ - Flashcard được cấu tạo gồm 2 mặt với: 
-* Mặt trước (Front): thường là từ mới tiếng anh theo chủ đề nhất định
-* Mặt sau (Back): thường là hình ảnh hoặc định nghĩa giúp bạn có thể hiểu được nghĩa của từ mới và cách sử dụng chúng trong thực tế
+- Thông thường flashcard được sử dụng nhiều trong việc học ngoại ngữ - Flashcard được cấu tạo gồm 2 mặt với: 
+ - Mặt trước (Front): thường là từ mới tiếng anh theo chủ đề nhất định
+ - Mặt sau (Back): thường là hình ảnh hoặc định nghĩa giúp bạn có thể hiểu được nghĩa của từ mới và cách sử dụng chúng trong thực tế
 
 ## Ứng dụng thực tiễn
 * Tiết kiệm thời gian
