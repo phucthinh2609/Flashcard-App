@@ -1,6 +1,7 @@
 # Flashcard-App
 
 *Link product: https://phucthinh2609.github.io/Flashcard-App/*
+*Link slide: https://1drv.ms/p/s!Avuu8-iR0ljAhh-bMjFPOlBhjMqK?e=tvl48e*
 
 ## Giới thiệu
 
